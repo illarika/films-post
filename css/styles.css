@@ -1,0 +1,120 @@
+.container{
+    height: auto;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+h2, h3{
+    text-align: center;
+}
+.form{
+    font-family: 'Kanit', sans-serif;
+    margin-left: 38%;
+    padding: 10px;
+    height: 100px;
+    width: 300px;
+    border:2px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+input, #type {
+    font-family: 'Kanit', sans-serif;
+    margin: 5px;
+    width: 220px;
+}
+.btn{
+    background-color:#CFCFCF;
+    font-family: 'Kanit', sans-serif;
+    margin: 10px;
+    width: 280px;
+    border-radius: 10px;
+    border:1px solid #DADADA;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: auto;
+    width: 100%;
+}
+.text, .textInfo{
+    text-align: center;
+}
+.filmBlock{
+    font-family: 'Bebas Neue', cursive;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; 
+    -khtml-border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border:2px solid grey;
+}
+.infoFilm{
+    height: auto;
+    width: 300px;
+    margin: auto;
+}
+.img{
+    margin: 10px;
+    height: 300px;
+    width: 250px;
+}
+.filmInfo{
+    margin: 10px 20px;
+    padding: 10px;
+    height: 280px;
+    width: 150px;
+}
+.btnDetels{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.pagination{
+    display: flex;
+	padding: 5px;
+    height: 50px;
+    width: auto;
+}
+button{
+    margin: 5px;
+}
+.pagination button:hover, .pagination button.active{
+    cursor: pointer;
+	border: 1px solid lightblue;
+}
+.blockImform{
+    margin: 10px;
+    height: auto;
+    width: 600px;
+    border-radius: 10px;
+    border:2px solid  #BBBBBB;
+}
+.contInfo{
+    display: flex;
+    height: auto;
+    
+}
+.active {
+    background-color: cornflowerblue;
+    color: white;
+  }
+
+
+
